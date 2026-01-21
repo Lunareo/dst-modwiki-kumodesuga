@@ -1,0 +1,44 @@
+.item-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.item-header-img {
+    height: 70;
+}
+
+.ingredient {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.ingredient-div {
+    position: relative;
+    display: inline-block;
+}
+
+.ingredient-div-img {
+    display: block;
+    height: 50px;
+    width: auto;
+}
+
+.ingredient-div-img-charactor {
+    display: block;
+    height: 30px;
+    width: auto;
+}
+
+.ingredient-div-number {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: rgba(99, 73, 49, 0.7);
+    color: white;
+    font-size: 8px;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-family: sans-serif;
+    pointer-events: none;
+}
